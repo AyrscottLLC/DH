@@ -1,11 +1,28 @@
 <?php
 /*
 
-DH - The PHP Discord Webhook Helper
-Modify $url and $name to suit your needs.
+DH - the Discord webhook Helper
+
+Modify the $url and $name static variables to suit your needs or to update them...
+
+DH::setName("FreshyFresh");
+DH::setUrl("https://mynewurl");
+
+Once you have done the above to send a message to your discord webhook simply call...
+
+DH::log("a message!");
+
+A number of additional methods to log various super globals are included as well..
+
+DH::logPost();
+DH::logGet();
+DH::logSession();
+
+...and more! The code is otherwsie very self explanatory. Read it!
+
 https://github.com/AyrscottLLC/DH
 
-Copyright 2022 Ayrscott, LLC | https://ayrscott.com/
+Copyright 2022 Jared De Blander & Ayrscott, LLC | https://ayrscott.com/
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
