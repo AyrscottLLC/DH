@@ -24,7 +24,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 class DH
 {
     private static $url = 'https://discord.com/api/webhooks/REPLACE/ME';
-    private static $name = 'ace.sbs';
+    private static $name = 'YourName';
 
     public static function setName(string $name)
     {
