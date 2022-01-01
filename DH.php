@@ -18,7 +18,7 @@ DH::logPost();
 DH::logGet();
 DH::logSession();
 
-...and more! The code is otherwsie very self explanatory. Read it!
+...and more! The code is otherwise very self explanatory. Read it!
 
 https://github.com/AyrscottLLC/DH
 
