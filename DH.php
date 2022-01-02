@@ -75,36 +75,36 @@ class DH
 
     public static function logPost()
     {
-        return self::log(print_r($_POST, true));
+        return self::log('$_POST='.print_r($_POST, true));
     }
 
     public static function logGet()
     {
-        return self::log(print_r($_GET, true));
+        return self::log('$_GET='.print_r($_GET, true));
     }
 
     public static function logSession()
     {
-        return self::log(print_r($_SESSION, true));
+        return self::log('$_SESSION='.print_r($_SESSION, true));
     }
 
     public static function logCookie()
     {
-        return self::log(print_r($_COOKIE, true));
+        return self::log('$_COOKIE='.print_r($_COOKIE, true));
     }
 
     public static function logServer()
     {
-        return self::log(print_r($_SERVER, true));
+        return self::log('$_SERVER='.print_r($_SERVER, true));
     }
 
     public static function logFiles()
     {
-        return self::log(print_r($_FILES, true));
+        return self::log('$_FILES='.print_r($_FILES, true));
     }
 
     public static function logEnv()
     {
-        return self::log(print_r($_ENV, true));
+        return self::log('$_ENV='.print_r($_ENV, true));
     }
 }
